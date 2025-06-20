@@ -1,0 +1,26 @@
+# audit_rules: A list of audit rules, each rule defines the path and access rights to it
+audit_rules:
+  # - path: "/etc/passwd" # The path to the file to be tracked
+  #   permissions: ["r", "w"] # Access rights for this file
+  #   # permissions:
+  #   # "r" - read permission: allows you to read the contents of the file
+  #   # "w" - write permission: allows you to change the contents of the file
+
+  # - path: "/var/log/auth.log" # Path to the authentication log file
+  #   permissions: ["r"] # Access rights for this file
+  #     # permissions:
+  #     # "r" - read permission: allows you to read the contents of the file
+
+  # - path: "/home/user/" # Path to the directory to be tracked
+  #   permissions: ["r", "w", "x", "a"]  # Access rights for this directory
+  #     # permissions:
+  #     # "r" - read permission: allows you to view the contents of the directory
+  #     # "w" - write permission: allows you to change the contents of the directory (for example, add or delete files)
+  #     # "x" - execute permission: allows you to enter a directory and execute files inside it
+  #     # "a" - the right to add (append): allows you to add data to the end of files inside a directory
+
+  - path: "/home/alyona/tetetetet.txt" # Path to the authentication log file
+    permissions: ["r", "w", "x", "a"] # Access rights for this file
+      # permissions:
+      # "r" - read permission: allows you to read the contents of the file
+      
