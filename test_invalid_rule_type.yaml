@@ -1,0 +1,6 @@
+# Ошибка: permissions должны быть списком, а не строкой
+audit_rules:
+  ssh_login:
+    - path: "/var/log/auth.log"
+      permissions: "r"  # Неправильный тип
+      key: "SSH_LOGIN"

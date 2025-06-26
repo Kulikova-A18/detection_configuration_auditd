@@ -1,0 +1,34 @@
+# # audit_rules: A list of audit rules, each rule defines the path and access rights to it
+audit_rules:
+#   # Мониторинг входа по SSH
+#   ssh_login:
+#     - path: "/var/log/auth.log"
+#       permissions: ["r"]
+#       key: "SSH_LOGIN" 
+
+#     - path: "/var/log/secure"
+#       permissions: ["r"]
+#       key: "SSH_LOGIN"
+
+#   # Мониторинг доступа к файлам
+#   file_access:
+#     - path: "/etc/passwd"
+#       permissions: ["r", "w"]
+#       key: "FILE_ACCESS"
+
+
+#   # Мониторинг установки пакетов
+#   package_installation:
+#     - path: "/var/log/dpkg.log" 
+#       permissions: ["r"]
+#       key: "PACKAGE_INSTALL" 
+
+#     - path: "/var/log/yum.log"
+#       permissions: ["r"]
+#       key: "PACKAGE_INSTALL"
+
+#   # Аудит процессов
+#   process_audit:
+#     - command: "execve"
+#       action: "always,exit"
+#       key: "PROCESS_AUDIT" 

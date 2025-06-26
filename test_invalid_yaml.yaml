@@ -1,0 +1,6 @@
+# Ошибка: пропущено двоеточие после ключа
+audit_rules
+  ssh_login:
+    - path: "/var/log/auth.log"
+      permissions: ["r"]
+      key: "SSH_LOGIN"
